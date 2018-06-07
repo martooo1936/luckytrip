@@ -103,8 +103,22 @@ def update_pocket_money():
     conn.commit()
     c.execute("SELECT * FROM destinations")
     [print(row) for row in c.fetchall()]
+
+
+def delete_excursion():
+    c.execute("SELECT  * FROM  destinations")
+    [print(row) for row in c.fetchall()]
+    city_to_del = input("Which excursion you want to delete\n")
+    c.execute("DELETE FROM destinations WHERE city=(?)",
+              (city_to_del, ))
+    conn.commit()
+    c.execute("SELECT  * FROM destinations")
+    [print(row) for row in c.fetchall()]
+
+
 # update_country()
 # admin menu
+
 
 
 while True:
@@ -115,7 +129,8 @@ while True:
     print("4. Update Traveling Costs")
     print("5. Update Hotel Expenses")
     print("6. Update Pocket money needed")
-    print("7. Quit")
+    print("7. Delete Excursion")
+    print("8. Quit")
     choice = input("Pick one option\n")
     if choice == "1":
         insert_data()
@@ -130,6 +145,8 @@ while True:
     if choice == "6":
         update_pocket_money()
     if choice == "7":
+        delete_excursion()
+    if choice == "8":
         break
     else:
         print("choose a valid option")

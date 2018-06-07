@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="359ba943-db09-41d7-adfa-865c806e2ee8" name="Default" comment="" />
+    <list default="true" id="359ba943-db09-41d7-adfa-865c806e2ee8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/admin.py" afterPath="$PROJECT_DIR$/admin.py" />
+      <change beforePath="$PROJECT_DIR$/luckytrip.db" afterPath="$PROJECT_DIR$/luckytrip.db" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,36 +14,39 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/final_project$user.coverage" NAME="user Coverage Results" MODIFIED="1528403229741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/final_project$admin.coverage" NAME="admin Coverage Results" MODIFIED="1528409132775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/final_project$admin.coverage" NAME="admin Coverage Results" MODIFIED="1528410812938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="130" column="29" lean-forward="false" selection-start-line="130" selection-start-column="29" selection-end-line="130" selection-end-column="29" />
+            <state relative-caret-position="368">
+              <caret line="112" column="28" lean-forward="false" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="28" />
               <folding>
-                <marker date="1528409132695" expanded="true" signature="184:303" ph="CREATE TABLE... destinations" />
-                <marker date="1528409132695" expanded="true" signature="381:414" ph="INSERT INTO destinations... " />
-                <marker date="1528409132695" expanded="true" signature="381:447" ph="INSERT INTO destinations... " />
-                <marker date="1528409132695" expanded="true" signature="896:994" ph="INSERT INTO destinations... " />
-                <marker date="1528409132695" expanded="true" signature="1160:1187" ph="SELECT * FRO... destinations" />
-                <marker date="1528409132695" expanded="true" signature="1434:1485" ph="UPDATE destinations... " />
-                <marker date="1528409132695" expanded="true" signature="1590:1616" ph="SELECT * FRO... destinations" />
-                <marker date="1528409132695" expanded="true" signature="1722:1748" ph="SELECT * FRO... destinations" />
-                <marker date="1528409132695" expanded="true" signature="1928:1982" ph="UPDATE destinations " />
-                <marker date="1528409132695" expanded="true" signature="2060:2083" ph="SELECT * FRO... destinati" />
-                <marker date="1528409132695" expanded="true" signature="2060:2086" ph="SELECT * FRO... destinations" />
-                <marker date="1528409132695" expanded="true" signature="2174:2200" ph="SELECT * FRO... destinations" />
-                <marker date="1528409132695" expanded="true" signature="2367:2423" ph="UPDATE destinations " />
-                <marker date="1528409132695" expanded="true" signature="2492:2518" ph="SELECT * FRO... destinations" />
-                <marker date="1528409132695" expanded="true" signature="2605:2631" ph="SELECT * FRO... destinations" />
-                <marker date="1528409132695" expanded="true" signature="2810:2865" ph="UPDATE destinations " />
-                <marker date="1528409132695" expanded="true" signature="2934:2960" ph="SELECT * FRO... destinations" />
-                <marker date="1528409132695" expanded="true" signature="3049:3075" ph="SELECT * FRO... destinations" />
-                <marker date="1528409132695" expanded="true" signature="3257:3312" ph="UPDATE destinations " />
-                <marker date="1528409132695" expanded="true" signature="3381:3407" ph="SELECT * FRO... destinations" />
+                <marker date="1528410812887" expanded="true" signature="184:303" ph="CREATE TABLE... destinations" />
+                <marker date="1528410812887" expanded="true" signature="381:414" ph="INSERT INTO destinations... " />
+                <marker date="1528410812887" expanded="true" signature="381:447" ph="INSERT INTO destinations... " />
+                <marker date="1528410812887" expanded="true" signature="896:994" ph="INSERT INTO destinations... " />
+                <marker date="1528410812887" expanded="true" signature="1160:1187" ph="SELECT * FRO... destinations" />
+                <marker date="1528410812887" expanded="true" signature="1434:1485" ph="UPDATE destinations... " />
+                <marker date="1528410812887" expanded="true" signature="1590:1616" ph="SELECT * FRO... destinations" />
+                <marker date="1528410812887" expanded="true" signature="1722:1748" ph="SELECT * FRO... destinations" />
+                <marker date="1528410812887" expanded="true" signature="1928:1982" ph="UPDATE destinations " />
+                <marker date="1528410812887" expanded="true" signature="2060:2083" ph="SELECT * FRO... destinati" />
+                <marker date="1528410812887" expanded="true" signature="2060:2086" ph="SELECT * FRO... destinations" />
+                <marker date="1528410812887" expanded="true" signature="2174:2200" ph="SELECT * FRO... destinations" />
+                <marker date="1528410812887" expanded="true" signature="2367:2423" ph="UPDATE destinations " />
+                <marker date="1528410812887" expanded="true" signature="2492:2518" ph="SELECT * FRO... destinations" />
+                <marker date="1528410812887" expanded="true" signature="2605:2631" ph="SELECT * FRO... destinations" />
+                <marker date="1528410812887" expanded="true" signature="2810:2865" ph="UPDATE destinations " />
+                <marker date="1528410812887" expanded="true" signature="2934:2960" ph="SELECT * FRO... destinations" />
+                <marker date="1528410812887" expanded="true" signature="3049:3075" ph="SELECT * FRO... destinations" />
+                <marker date="1528410812887" expanded="true" signature="3257:3312" ph="UPDATE destinations " />
+                <marker date="1528410812887" expanded="true" signature="3381:3407" ph="SELECT * FRO... destinations" />
+                <marker date="1528410812887" expanded="true" signature="3492:3520" ph="SELECT * FRO... destinations" />
+                <marker date="1528410812887" expanded="true" signature="3643:3682" ph="DELETE FROM destinations... " />
+                <marker date="1528410812887" expanded="true" signature="3749:3776" ph="SELECT * FRO... destinations" />
               </folding>
             </state>
           </provider>
@@ -285,29 +291,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="130" column="29" lean-forward="false" selection-start-line="130" selection-start-column="29" selection-end-line="130" selection-end-column="29" />
+        <state relative-caret-position="368">
+          <caret line="112" column="28" lean-forward="false" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="28" />
           <folding>
-            <marker date="1528409132695" expanded="true" signature="184:303" ph="CREATE TABLE... destinations" />
-            <marker date="1528409132695" expanded="true" signature="381:414" ph="INSERT INTO destinations... " />
-            <marker date="1528409132695" expanded="true" signature="381:447" ph="INSERT INTO destinations... " />
-            <marker date="1528409132695" expanded="true" signature="896:994" ph="INSERT INTO destinations... " />
-            <marker date="1528409132695" expanded="true" signature="1160:1187" ph="SELECT * FRO... destinations" />
-            <marker date="1528409132695" expanded="true" signature="1434:1485" ph="UPDATE destinations... " />
-            <marker date="1528409132695" expanded="true" signature="1590:1616" ph="SELECT * FRO... destinations" />
-            <marker date="1528409132695" expanded="true" signature="1722:1748" ph="SELECT * FRO... destinations" />
-            <marker date="1528409132695" expanded="true" signature="1928:1982" ph="UPDATE destinations " />
-            <marker date="1528409132695" expanded="true" signature="2060:2083" ph="SELECT * FRO... destinati" />
-            <marker date="1528409132695" expanded="true" signature="2060:2086" ph="SELECT * FRO... destinations" />
-            <marker date="1528409132695" expanded="true" signature="2174:2200" ph="SELECT * FRO... destinations" />
-            <marker date="1528409132695" expanded="true" signature="2367:2423" ph="UPDATE destinations " />
-            <marker date="1528409132695" expanded="true" signature="2492:2518" ph="SELECT * FRO... destinations" />
-            <marker date="1528409132695" expanded="true" signature="2605:2631" ph="SELECT * FRO... destinations" />
-            <marker date="1528409132695" expanded="true" signature="2810:2865" ph="UPDATE destinations " />
-            <marker date="1528409132695" expanded="true" signature="2934:2960" ph="SELECT * FRO... destinations" />
-            <marker date="1528409132695" expanded="true" signature="3049:3075" ph="SELECT * FRO... destinations" />
-            <marker date="1528409132695" expanded="true" signature="3257:3312" ph="UPDATE destinations " />
-            <marker date="1528409132695" expanded="true" signature="3381:3407" ph="SELECT * FRO... destinations" />
+            <marker date="1528410812887" expanded="true" signature="184:303" ph="CREATE TABLE... destinations" />
+            <marker date="1528410812887" expanded="true" signature="381:414" ph="INSERT INTO destinations... " />
+            <marker date="1528410812887" expanded="true" signature="381:447" ph="INSERT INTO destinations... " />
+            <marker date="1528410812887" expanded="true" signature="896:994" ph="INSERT INTO destinations... " />
+            <marker date="1528410812887" expanded="true" signature="1160:1187" ph="SELECT * FRO... destinations" />
+            <marker date="1528410812887" expanded="true" signature="1434:1485" ph="UPDATE destinations... " />
+            <marker date="1528410812887" expanded="true" signature="1590:1616" ph="SELECT * FRO... destinations" />
+            <marker date="1528410812887" expanded="true" signature="1722:1748" ph="SELECT * FRO... destinations" />
+            <marker date="1528410812887" expanded="true" signature="1928:1982" ph="UPDATE destinations " />
+            <marker date="1528410812887" expanded="true" signature="2060:2083" ph="SELECT * FRO... destinati" />
+            <marker date="1528410812887" expanded="true" signature="2060:2086" ph="SELECT * FRO... destinations" />
+            <marker date="1528410812887" expanded="true" signature="2174:2200" ph="SELECT * FRO... destinations" />
+            <marker date="1528410812887" expanded="true" signature="2367:2423" ph="UPDATE destinations " />
+            <marker date="1528410812887" expanded="true" signature="2492:2518" ph="SELECT * FRO... destinations" />
+            <marker date="1528410812887" expanded="true" signature="2605:2631" ph="SELECT * FRO... destinations" />
+            <marker date="1528410812887" expanded="true" signature="2810:2865" ph="UPDATE destinations " />
+            <marker date="1528410812887" expanded="true" signature="2934:2960" ph="SELECT * FRO... destinations" />
+            <marker date="1528410812887" expanded="true" signature="3049:3075" ph="SELECT * FRO... destinations" />
+            <marker date="1528410812887" expanded="true" signature="3257:3312" ph="UPDATE destinations " />
+            <marker date="1528410812887" expanded="true" signature="3381:3407" ph="SELECT * FRO... destinations" />
+            <marker date="1528410812887" expanded="true" signature="3492:3520" ph="SELECT * FRO... destinations" />
+            <marker date="1528410812887" expanded="true" signature="3643:3682" ph="DELETE FROM destinations... " />
+            <marker date="1528410812887" expanded="true" signature="3749:3776" ph="SELECT * FRO... destinations" />
           </folding>
         </state>
       </provider>
