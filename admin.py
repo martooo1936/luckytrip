@@ -39,6 +39,13 @@ def insert_data():
     conn.close()
 
 
+# get all destinations
+def get_excursions():
+    c.execute("SELECT * FROM destinations")
+    for row in c.fetchall():
+        print(row)
+
+
 def update_destination():
     c.execute("SELECT  * FROM destinations")
     # one line for loop to print out every row for every row in c.fetchall()
@@ -132,6 +139,8 @@ while True:
     print("7. Delete Excursion")
     print("8. Quit")
     choice = input("Pick one option\n")
+    if choice == "0":
+        get_excursions()
     if choice == "1":
         insert_data()
     if choice == "2":

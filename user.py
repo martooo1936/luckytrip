@@ -46,5 +46,6 @@ def get_dest_byparam():
             print("your budget is not enough: " + row[1])
 
 
-get_destinations()
-get_dest_byparam()
+# get_destinations()
+# get_dest_byparam()
+
