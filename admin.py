@@ -54,19 +54,38 @@ def update_destination():
     [print(row) for row in c.fetchall()]
 
 
-update_destination()
+#update_destination()
 
+def update_country():
+    c.execute("SELECT * FROM destinations")
+    [print(row) for row in c.fetchall()]
+    new_country = input("Which country you want to add\n")
+    old_country = input("Which country you want to replce\n")
+    c.execute("UPDATE  destinations SET country=(?) WHERE country=(?)",
+              (new_country, old_country))
+    conn.commit()
+    c.execute("SELECT * FROM destinations")
+    [print(row) for row in c.fetchall()]
+
+
+#update_country()
 # admin menu
-"""
+
 
 while True:
+    print("0. See current excursions")
     print("1. Insert new excursion")
-    print("2. Quit")
+    print("2. Update Country")
+    print("3. Update City")
+    print("4. Quit")
     choice = input("Pick one option\n")
     if choice == "1":
         insert_data()
     if choice == "2":
+        update_country()
+    if choice == "3":
+        update_destination()
+    if choice == "4":
         break
     else:
         print("choose a valid option")
-"""
