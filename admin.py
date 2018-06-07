@@ -68,7 +68,42 @@ def update_country():
     [print(row) for row in c.fetchall()]
 
 
-#update_country()
+def update_ticket_price():
+    c.execute("SELECT * FROM destinations")
+    [print(row) for row in c.fetchall()]
+    new_price = input("What is the new price\n")
+    city = input("Which destination you want to change\n")
+    c.execute("UPDATE  destinations SET ticket_price=(?) WHERE city=(?)",
+              (new_price, city))
+    conn.commit()
+    c.execute("SELECT * FROM destinations")
+    [print(row) for row in c.fetchall()]
+
+
+def update_hotel_price():
+    c.execute("SELECT * FROM destinations")
+    [print(row) for row in c.fetchall()]
+    new_price = input("What is the new price of the stay\n")
+    city = input("Which destination you want to change\n")
+    c.execute("UPDATE  destinations SET hotel_price=(?) WHERE city=(?)",
+              (new_price, city))
+    conn.commit()
+    c.execute("SELECT * FROM destinations")
+    [print(row) for row in c.fetchall()]
+
+
+
+def update_pocket_money():
+    c.execute("SELECT * FROM destinations")
+    [print(row) for row in c.fetchall()]
+    new_money = input("What is approx pocket money required\n")
+    city = input("Which destination you want to change\n")
+    c.execute("UPDATE  destinations SET pocketmoney=(?) WHERE city=(?)",
+              (new_money, city))
+    conn.commit()
+    c.execute("SELECT * FROM destinations")
+    [print(row) for row in c.fetchall()]
+# update_country()
 # admin menu
 
 
@@ -77,7 +112,10 @@ while True:
     print("1. Insert new excursion")
     print("2. Update Country")
     print("3. Update City")
-    print("4. Quit")
+    print("4. Update Traveling Costs")
+    print("5. Update Hotel Expenses")
+    print("6. Update Pocket money needed")
+    print("7. Quit")
     choice = input("Pick one option\n")
     if choice == "1":
         insert_data()
@@ -86,6 +124,12 @@ while True:
     if choice == "3":
         update_destination()
     if choice == "4":
+        update_ticket_price()
+    if choice == "5":
+        update_hotel_price()
+    if choice == "6":
+        update_pocket_money()
+    if choice == "7":
         break
     else:
         print("choose a valid option")
