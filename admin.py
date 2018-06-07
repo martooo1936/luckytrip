@@ -14,7 +14,7 @@ def create_table():
     c.execute('CREATE TABLE IF NOT EXISTS destinations(country TEXT, city TEXT, ticket_price REAL, hotel_price REAL, pocketmoney REAL)')
 
 
-# put data in the db
+# put data in the db with sql statement
 def data_entry():
     c.execute("INSERT INTO destinations VALUES ('Italy', 'Rome', 2244, 7711, 897)")
     conn.commit()
@@ -39,7 +39,25 @@ def insert_data():
     conn.close()
 
 
-# insert_data()
+def update_destination():
+    c.execute("SELECT  * FROM destinations")
+    # one line for loop to print out every row for every row in c.fetchall()
+
+    [print(row) for row in c.fetchall()]
+    val_to_change = input("Which is the new city\n")
+    new_value = input("Which one you want to replace\n")
+    c.execute("UPDATE destinations SET city = (?) WHERE city = (?)",
+              (val_to_change, new_value))
+    conn.commit()
+    # see the updated list
+    c.execute("SELECT * FROM destinations")
+    [print(row) for row in c.fetchall()]
+
+
+update_destination()
+
+# admin menu
+"""
 
 while True:
     print("1. Insert new excursion")
@@ -51,3 +69,4 @@ while True:
         break
     else:
         print("choose a valid option")
+"""
