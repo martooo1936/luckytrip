@@ -15,13 +15,28 @@ c.execute('''
     ''')
 
 
+def encrypt_pass(password):
+    encrypttedText = ""
+    for letter in password:
+        cipher = ord(letter) + 10
+        encrypttedText += chr(cipher)
+    return encrypttedText
+
+
+#def decrypt_pass(password):
+
+
+
+
+
+
 def create_user():
     username = input("Username ? : \n")
     firstName = input("First name ? :\n")
     lastName = input("Last name ? : \n")
     passWord =input("password ? : \n")
     c.execute("INSERT INTO users(username, first_name, last_name, password) VALUES (?, ?, ?, ?)",
-              (username, firstName, lastName, passWord))
+              (username, firstName, lastName, encrypt_pass(passWord)))
 
     # commit the changes
     conn.commit()
@@ -29,7 +44,7 @@ def create_user():
 
 
 def get_users():
-    c.execute("SELECT * from users")
+    c.execute("SELECT username, first_name, last_name from users")
     for row in c.fetchall():
         print(row)
 
@@ -50,6 +65,6 @@ def login():
 
 
 
-# create_user()
-#et_users()
+#create_user()
+#get_users()
 login()
