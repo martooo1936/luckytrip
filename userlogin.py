@@ -23,7 +23,12 @@ def encrypt_pass(password):
     return encrypttedText
 
 
-#def decrypt_pass(password):
+def decrypt_pass(password):
+    decrypted = ""
+    for letter in password:
+        cipher = ord(letter) - 10
+        decrypted += chr(cipher)
+    return decrypted
 
 
 
@@ -53,8 +58,10 @@ def login():
     while True:
         username = input("enter username\n")
         password = input("enter pass:\n")
+        pass2 = encrypt_pass(password)
+
         find_user = c.execute("SELECT * FROM users WHERE username = (?) AND password = (?)",
-                              (username, password))
+                              (username, pass2))
         result = c.fetchall()
 
         if result:
@@ -68,3 +75,4 @@ def login():
 #create_user()
 #get_users()
 login()
+
