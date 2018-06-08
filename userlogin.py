@@ -45,11 +45,32 @@ def create_user():
 
     # commit the changes
     conn.commit()
+
     print("user is successfully saved in the db")
+    c.execute("SELECT * FROM users")
+    for row in c.fetchall():
+        print(row)
+
 
 
 def get_users():
     c.execute("SELECT username, first_name, last_name from users")
+    for row in c.fetchall():
+        print(row)
+
+
+def delete_user():
+
+    c.execute("SELECT username FROM users")
+    for row in c.fetchall():
+        print(row)
+    user_to_del = input("which user you want to remove\n")
+
+    c.execute("DELETE FROM users WHERE username=(?)",
+              (user_to_del, ))
+    conn.commit()
+    # show updated list
+    c.execute("SELECT * FROM users")
     for row in c.fetchall():
         print(row)
 
@@ -72,7 +93,28 @@ def login():
 
 
 
+#delete_user()
 #create_user()
 #get_users()
-login()
+#login()
 
+
+while True:
+    print("1. Create new user")
+    print("2. Delete existing user")
+    print("3. See all existing users")
+    print("4. Test login functionality")
+    print("5. QUIT")
+    choice = input("Select an option:\n")
+    if choice == "1":
+        create_user()
+    if choice == "2":
+        delete_user()
+    if choice == "3":
+        get_users()
+    if choice == "4":
+        login()
+    if choice == "5":
+        break
+    else:
+        print("choose a valid option")
