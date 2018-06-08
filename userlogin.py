@@ -34,5 +34,22 @@ def get_users():
         print(row)
 
 
-#create_user()
-get_users()
+def login():
+    while True:
+        username = input("enter username\n")
+        password = input("enter pass:\n")
+        find_user = c.execute("SELECT * FROM users WHERE username = (?) AND password = (?)",
+                              (username, password))
+        result = c.fetchall()
+
+        if result:
+            for i in result:
+                print("Welcome " + i[2])
+        else:
+            print("User login is invalid to proceed enter valid credentials")
+
+
+
+# create_user()
+#et_users()
+login()
