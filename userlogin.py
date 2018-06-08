@@ -1,9 +1,9 @@
 import sqlite3
 
-conn = sqlite3.connect('luckyusers.db')
-c = conn.cursor()
+connUsers = sqlite3.connect('luckyusers.db')
+c2 = connUsers.cursor()
 
-c.execute('''
+c2.execute('''
     CREATE TABLE IF NOT EXISTS users(
     id INTEGER PRIMARY KEY , 
     username VARCHAR(20) NOT NULL , 
@@ -40,38 +40,38 @@ def create_user():
     firstName = input("First name ? :\n")
     lastName = input("Last name ? : \n")
     passWord =input("password ? : \n")
-    c.execute("INSERT INTO users(username, first_name, last_name, password) VALUES (?, ?, ?, ?)",
-              (username, firstName, lastName, encrypt_pass(passWord)))
+    c2.execute("INSERT INTO users(username, first_name, last_name, password) VALUES (?, ?, ?, ?)",
+               (username, firstName, lastName, encrypt_pass(passWord)))
 
     # commit the changes
-    conn.commit()
+    connUsers.commit()
 
     print("user is successfully saved in the db")
-    c.execute("SELECT * FROM users")
-    for row in c.fetchall():
+    c2.execute("SELECT * FROM users")
+    for row in c2.fetchall():
         print(row)
 
 
 
 def get_users():
-    c.execute("SELECT username, first_name, last_name from users")
-    for row in c.fetchall():
+    c2.execute("SELECT username, first_name, last_name from users")
+    for row in c2.fetchall():
         print(row)
 
 
 def delete_user():
 
-    c.execute("SELECT username FROM users")
-    for row in c.fetchall():
+    c2.execute("SELECT username FROM users")
+    for row in c2.fetchall():
         print(row)
     user_to_del = input("which user you want to remove\n")
 
-    c.execute("DELETE FROM users WHERE username=(?)",
-              (user_to_del, ))
-    conn.commit()
+    c2.execute("DELETE FROM users WHERE username=(?)",
+               (user_to_del, ))
+    connUsers.commit()
     # show updated list
-    c.execute("SELECT * FROM users")
-    for row in c.fetchall():
+    c2.execute("SELECT * FROM users")
+    for row in c2.fetchall():
         print(row)
 
 
@@ -81,9 +81,9 @@ def login():
         password = input("enter pass:\n")
         pass2 = encrypt_pass(password)
 
-        find_user = c.execute("SELECT * FROM users WHERE username = (?) AND password = (?)",
-                              (username, pass2))
-        result = c.fetchall()
+        find_user = c2.execute("SELECT * FROM users WHERE username = (?) AND password = (?)",
+                               (username, pass2))
+        result = c2.fetchall()
 
         if result:
             for i in result:

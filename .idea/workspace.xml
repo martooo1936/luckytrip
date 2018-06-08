@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="359ba943-db09-41d7-adfa-865c806e2ee8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/luckyusers.db" afterPath="$PROJECT_DIR$/luckyusers.db" />
+      <change beforePath="$PROJECT_DIR$/admin.py" afterPath="$PROJECT_DIR$/admin.py" />
+      <change beforePath="$PROJECT_DIR$/luckytrip.db" afterPath="$PROJECT_DIR$/luckytrip.db" />
       <change beforePath="$PROJECT_DIR$/userlogin.py" afterPath="$PROJECT_DIR$/userlogin.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,40 +16,41 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/final_project$userlogin.coverage" NAME="userlogin Coverage Results" MODIFIED="1528454443358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/final_project$user.coverage" NAME="user Coverage Results" MODIFIED="1528403229741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/final_project$admin.coverage" NAME="admin Coverage Results" MODIFIED="1528454495265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/final_project$admin.coverage" NAME="admin Coverage Results" MODIFIED="1528457776198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="159" column="4" lean-forward="false" selection-start-line="159" selection-start-column="4" selection-end-line="159" selection-end-column="4" />
+            <state relative-caret-position="725">
+              <caret line="196" column="0" lean-forward="true" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
               <folding>
-                <marker date="1528411144530" expanded="true" signature="184:303" ph="CREATE TABLE... destinations" />
-                <marker date="1528411144530" expanded="true" signature="381:414" ph="INSERT INTO destinations... " />
-                <marker date="1528411144530" expanded="true" signature="381:447" ph="INSERT INTO destinations... " />
-                <marker date="1528411144530" expanded="true" signature="896:994" ph="INSERT INTO destinations... " />
-                <marker date="1528411144530" expanded="true" signature="1179:1205" ph="SELECT * FRO... destinations" />
-                <marker date="1528411144530" expanded="true" signature="1299:1326" ph="SELECT * FRO... destinations" />
-                <marker date="1528411144530" expanded="true" signature="1573:1624" ph="UPDATE destinations... " />
-                <marker date="1528411144530" expanded="true" signature="1729:1755" ph="SELECT * FRO... destinations" />
-                <marker date="1528411144530" expanded="true" signature="1861:1887" ph="SELECT * FRO... destinations" />
-                <marker date="1528411144530" expanded="true" signature="2067:2121" ph="UPDATE destinations " />
-                <marker date="1528411144530" expanded="true" signature="2199:2222" ph="SELECT * FRO... destinati" />
-                <marker date="1528411144530" expanded="true" signature="2199:2225" ph="SELECT * FRO... destinations" />
-                <marker date="1528411144530" expanded="true" signature="2313:2339" ph="SELECT * FRO... destinations" />
-                <marker date="1528411144530" expanded="true" signature="2506:2562" ph="UPDATE destinations " />
-                <marker date="1528411144530" expanded="true" signature="2631:2657" ph="SELECT * FRO... destinations" />
-                <marker date="1528411144530" expanded="true" signature="2744:2770" ph="SELECT * FRO... destinations" />
-                <marker date="1528411144530" expanded="true" signature="2949:3004" ph="UPDATE destinations " />
-                <marker date="1528411144530" expanded="true" signature="3073:3099" ph="SELECT * FRO... destinations" />
-                <marker date="1528411144530" expanded="true" signature="3188:3214" ph="SELECT * FRO... destinations" />
-                <marker date="1528411144530" expanded="true" signature="3396:3451" ph="UPDATE destinations " />
-                <marker date="1528411144530" expanded="true" signature="3520:3546" ph="SELECT * FRO... destinations" />
-                <marker date="1528411144530" expanded="true" signature="3631:3659" ph="SELECT * FRO... destinations" />
-                <marker date="1528411144530" expanded="true" signature="3782:3821" ph="DELETE FROM destinations... " />
-                <marker date="1528411144530" expanded="true" signature="3888:3915" ph="SELECT * FRO... destinations" />
+                <marker date="1528457876109" expanded="true" signature="353:472" ph="CREATE TABLE... destinations" />
+                <marker date="1528457876109" expanded="true" signature="550:583" ph="INSERT INTO destinations... " />
+                <marker date="1528457876109" expanded="true" signature="550:616" ph="INSERT INTO destinations... " />
+                <marker date="1528457876109" expanded="true" signature="1065:1163" ph="INSERT INTO destinations... " />
+                <marker date="1528457876109" expanded="true" signature="1348:1374" ph="SELECT * FRO... destinations" />
+                <marker date="1528457876109" expanded="true" signature="1468:1495" ph="SELECT * FRO... destinations" />
+                <marker date="1528457876109" expanded="true" signature="1742:1793" ph="UPDATE destinations... " />
+                <marker date="1528457876109" expanded="true" signature="1898:1924" ph="SELECT * FRO... destinations" />
+                <marker date="1528457876109" expanded="true" signature="2030:2056" ph="SELECT * FRO... destinations" />
+                <marker date="1528457876109" expanded="true" signature="2236:2290" ph="UPDATE destinations " />
+                <marker date="1528457876109" expanded="true" signature="2368:2391" ph="SELECT * FRO... destinati" />
+                <marker date="1528457876109" expanded="true" signature="2368:2394" ph="SELECT * FRO... destinations" />
+                <marker date="1528457876109" expanded="true" signature="2482:2508" ph="SELECT * FRO... destinations" />
+                <marker date="1528457876109" expanded="true" signature="2675:2731" ph="UPDATE destinations " />
+                <marker date="1528457876109" expanded="true" signature="2800:2826" ph="SELECT * FRO... destinations" />
+                <marker date="1528457876109" expanded="true" signature="2913:2939" ph="SELECT * FRO... destinations" />
+                <marker date="1528457876109" expanded="true" signature="3118:3173" ph="UPDATE destinations " />
+                <marker date="1528457876109" expanded="true" signature="3242:3268" ph="SELECT * FRO... destinations" />
+                <marker date="1528457876109" expanded="true" signature="3357:3383" ph="SELECT * FRO... destinations" />
+                <marker date="1528457876109" expanded="true" signature="3565:3620" ph="UPDATE destinations " />
+                <marker date="1528457876109" expanded="true" signature="3689:3715" ph="SELECT * FRO... destinations" />
+                <marker date="1528457876109" expanded="true" signature="3800:3828" ph="SELECT * FRO... destinations" />
+                <marker date="1528457876109" expanded="true" signature="3951:3990" ph="DELETE FROM destinations... " />
+                <marker date="1528457876109" expanded="true" signature="4057:4084" ph="SELECT * FRO... destinations" />
+                <marker date="1528457876109" expanded="true" signature="4583:4642" ph="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
@@ -57,20 +59,20 @@
       <file leaf-file-name="userlogin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userlogin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+            <state relative-caret-position="295">
+              <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding>
-                <marker date="1528454438613" expanded="true" signature="86:294" ph="CREATE TABLE... users" />
-                <marker date="1528454438613" expanded="true" signature="88:294" ph="CREATE TABLE... users" />
-                <marker date="1528454438613" expanded="true" signature="93:294" ph="CREATE TABLE... users" />
-                <marker date="1528454438613" expanded="true" signature="872:932" ph="INSERT INTO users... " />
-                <marker date="1528454438613" expanded="true" signature="872:952" ph="INSERT INTO users... " />
-                <marker date="1528454438613" expanded="true" signature="1136:1155" ph="SELECT * FRO... users" />
-                <marker date="1528454438613" expanded="true" signature="1241:1290" ph="SELECT * fro... users" />
-                <marker date="1528454438613" expanded="true" signature="1378:1404" ph="SELECT usern... users" />
-                <marker date="1528454438613" expanded="true" signature="1530:1566" ph="DELETE FROM users... " />
-                <marker date="1528454438613" expanded="true" signature="1657:1676" ph="SELECT * FRO... users" />
-                <marker date="1528454438613" expanded="true" signature="1916:1975" ph="SELECT * FRO... users" />
+                <marker date="1528456450071" expanded="true" signature="98:306" ph="CREATE TABLE... users" />
+                <marker date="1528456450071" expanded="true" signature="100:306" ph="CREATE TABLE... users" />
+                <marker date="1528456450071" expanded="true" signature="105:306" ph="CREATE TABLE... users" />
+                <marker date="1528456450071" expanded="true" signature="885:945" ph="INSERT INTO users... " />
+                <marker date="1528456450071" expanded="true" signature="885:965" ph="INSERT INTO users... " />
+                <marker date="1528456450071" expanded="true" signature="1156:1175" ph="SELECT * FRO... users" />
+                <marker date="1528456450071" expanded="true" signature="1263:1312" ph="SELECT * fro... users" />
+                <marker date="1528456450071" expanded="true" signature="1402:1428" ph="SELECT usern... users" />
+                <marker date="1528456450071" expanded="true" signature="1556:1592" ph="DELETE FROM users... " />
+                <marker date="1528456450071" expanded="true" signature="1690:1709" ph="SELECT * FRO... users" />
+                <marker date="1528456450071" expanded="true" signature="1951:2010" ph="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
@@ -79,7 +81,7 @@
       <file leaf-file-name="user.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="793">
+            <state relative-caret-position="737">
               <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <marker date="1528411144481" expanded="true" signature="196:222" ph="SELECT * FRO... destinations" />
@@ -261,10 +263,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.87698835" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -305,7 +308,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
+        <state relative-caret-position="737">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <marker date="1528411144481" expanded="true" signature="196:222" ph="SELECT * FRO... destinations" />
@@ -318,53 +321,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/userlogin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+        <state relative-caret-position="295">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
           <folding>
-            <marker date="1528454438613" expanded="true" signature="86:294" ph="CREATE TABLE... users" />
-            <marker date="1528454438613" expanded="true" signature="88:294" ph="CREATE TABLE... users" />
-            <marker date="1528454438613" expanded="true" signature="93:294" ph="CREATE TABLE... users" />
-            <marker date="1528454438613" expanded="true" signature="872:932" ph="INSERT INTO users... " />
-            <marker date="1528454438613" expanded="true" signature="872:952" ph="INSERT INTO users... " />
-            <marker date="1528454438613" expanded="true" signature="1136:1155" ph="SELECT * FRO... users" />
-            <marker date="1528454438613" expanded="true" signature="1241:1290" ph="SELECT * fro... users" />
-            <marker date="1528454438613" expanded="true" signature="1378:1404" ph="SELECT usern... users" />
-            <marker date="1528454438613" expanded="true" signature="1530:1566" ph="DELETE FROM users... " />
-            <marker date="1528454438613" expanded="true" signature="1657:1676" ph="SELECT * FRO... users" />
-            <marker date="1528454438613" expanded="true" signature="1916:1975" ph="SELECT * FRO... users" />
+            <marker date="1528456450071" expanded="true" signature="98:306" ph="CREATE TABLE... users" />
+            <marker date="1528456450071" expanded="true" signature="100:306" ph="CREATE TABLE... users" />
+            <marker date="1528456450071" expanded="true" signature="105:306" ph="CREATE TABLE... users" />
+            <marker date="1528456450071" expanded="true" signature="885:945" ph="INSERT INTO users... " />
+            <marker date="1528456450071" expanded="true" signature="885:965" ph="INSERT INTO users... " />
+            <marker date="1528456450071" expanded="true" signature="1156:1175" ph="SELECT * FRO... users" />
+            <marker date="1528456450071" expanded="true" signature="1263:1312" ph="SELECT * fro... users" />
+            <marker date="1528456450071" expanded="true" signature="1402:1428" ph="SELECT usern... users" />
+            <marker date="1528456450071" expanded="true" signature="1556:1592" ph="DELETE FROM users... " />
+            <marker date="1528456450071" expanded="true" signature="1690:1709" ph="SELECT * FRO... users" />
+            <marker date="1528456450071" expanded="true" signature="1951:2010" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="159" column="4" lean-forward="false" selection-start-line="159" selection-start-column="4" selection-end-line="159" selection-end-column="4" />
+        <state relative-caret-position="725">
+          <caret line="196" column="0" lean-forward="true" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
           <folding>
-            <marker date="1528411144530" expanded="true" signature="184:303" ph="CREATE TABLE... destinations" />
-            <marker date="1528411144530" expanded="true" signature="381:414" ph="INSERT INTO destinations... " />
-            <marker date="1528411144530" expanded="true" signature="381:447" ph="INSERT INTO destinations... " />
-            <marker date="1528411144530" expanded="true" signature="896:994" ph="INSERT INTO destinations... " />
-            <marker date="1528411144530" expanded="true" signature="1179:1205" ph="SELECT * FRO... destinations" />
-            <marker date="1528411144530" expanded="true" signature="1299:1326" ph="SELECT * FRO... destinations" />
-            <marker date="1528411144530" expanded="true" signature="1573:1624" ph="UPDATE destinations... " />
-            <marker date="1528411144530" expanded="true" signature="1729:1755" ph="SELECT * FRO... destinations" />
-            <marker date="1528411144530" expanded="true" signature="1861:1887" ph="SELECT * FRO... destinations" />
-            <marker date="1528411144530" expanded="true" signature="2067:2121" ph="UPDATE destinations " />
-            <marker date="1528411144530" expanded="true" signature="2199:2222" ph="SELECT * FRO... destinati" />
-            <marker date="1528411144530" expanded="true" signature="2199:2225" ph="SELECT * FRO... destinations" />
-            <marker date="1528411144530" expanded="true" signature="2313:2339" ph="SELECT * FRO... destinations" />
-            <marker date="1528411144530" expanded="true" signature="2506:2562" ph="UPDATE destinations " />
-            <marker date="1528411144530" expanded="true" signature="2631:2657" ph="SELECT * FRO... destinations" />
-            <marker date="1528411144530" expanded="true" signature="2744:2770" ph="SELECT * FRO... destinations" />
-            <marker date="1528411144530" expanded="true" signature="2949:3004" ph="UPDATE destinations " />
-            <marker date="1528411144530" expanded="true" signature="3073:3099" ph="SELECT * FRO... destinations" />
-            <marker date="1528411144530" expanded="true" signature="3188:3214" ph="SELECT * FRO... destinations" />
-            <marker date="1528411144530" expanded="true" signature="3396:3451" ph="UPDATE destinations " />
-            <marker date="1528411144530" expanded="true" signature="3520:3546" ph="SELECT * FRO... destinations" />
-            <marker date="1528411144530" expanded="true" signature="3631:3659" ph="SELECT * FRO... destinations" />
-            <marker date="1528411144530" expanded="true" signature="3782:3821" ph="DELETE FROM destinations... " />
-            <marker date="1528411144530" expanded="true" signature="3888:3915" ph="SELECT * FRO... destinations" />
+            <marker date="1528457876109" expanded="true" signature="353:472" ph="CREATE TABLE... destinations" />
+            <marker date="1528457876109" expanded="true" signature="550:583" ph="INSERT INTO destinations... " />
+            <marker date="1528457876109" expanded="true" signature="550:616" ph="INSERT INTO destinations... " />
+            <marker date="1528457876109" expanded="true" signature="1065:1163" ph="INSERT INTO destinations... " />
+            <marker date="1528457876109" expanded="true" signature="1348:1374" ph="SELECT * FRO... destinations" />
+            <marker date="1528457876109" expanded="true" signature="1468:1495" ph="SELECT * FRO... destinations" />
+            <marker date="1528457876109" expanded="true" signature="1742:1793" ph="UPDATE destinations... " />
+            <marker date="1528457876109" expanded="true" signature="1898:1924" ph="SELECT * FRO... destinations" />
+            <marker date="1528457876109" expanded="true" signature="2030:2056" ph="SELECT * FRO... destinations" />
+            <marker date="1528457876109" expanded="true" signature="2236:2290" ph="UPDATE destinations " />
+            <marker date="1528457876109" expanded="true" signature="2368:2391" ph="SELECT * FRO... destinati" />
+            <marker date="1528457876109" expanded="true" signature="2368:2394" ph="SELECT * FRO... destinations" />
+            <marker date="1528457876109" expanded="true" signature="2482:2508" ph="SELECT * FRO... destinations" />
+            <marker date="1528457876109" expanded="true" signature="2675:2731" ph="UPDATE destinations " />
+            <marker date="1528457876109" expanded="true" signature="2800:2826" ph="SELECT * FRO... destinations" />
+            <marker date="1528457876109" expanded="true" signature="2913:2939" ph="SELECT * FRO... destinations" />
+            <marker date="1528457876109" expanded="true" signature="3118:3173" ph="UPDATE destinations " />
+            <marker date="1528457876109" expanded="true" signature="3242:3268" ph="SELECT * FRO... destinations" />
+            <marker date="1528457876109" expanded="true" signature="3357:3383" ph="SELECT * FRO... destinations" />
+            <marker date="1528457876109" expanded="true" signature="3565:3620" ph="UPDATE destinations " />
+            <marker date="1528457876109" expanded="true" signature="3689:3715" ph="SELECT * FRO... destinations" />
+            <marker date="1528457876109" expanded="true" signature="3800:3828" ph="SELECT * FRO... destinations" />
+            <marker date="1528457876109" expanded="true" signature="3951:3990" ph="DELETE FROM destinations... " />
+            <marker date="1528457876109" expanded="true" signature="4057:4084" ph="SELECT * FRO... destinations" />
+            <marker date="1528457876109" expanded="true" signature="4583:4642" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
