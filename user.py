@@ -49,3 +49,14 @@ def get_dest_byparam():
 # get_destinations()
 # get_dest_byparam()
 
+while True:
+    print("1. See our destinations")
+    print("2 Check what you can afford")
+    choice = input("Pick one option\n")
+    if choice == "1":
+        get_destinations()
+    if choice == "2":
+        get_dest_byparam()
+    else:
+        print("Chose a valid option ")
+
