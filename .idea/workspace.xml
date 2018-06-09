@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="359ba943-db09-41d7-adfa-865c806e2ee8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapping.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/user.py" afterPath="$PROJECT_DIR$/user.py" />
+      <change beforePath="$PROJECT_DIR$/scrapping.py" afterPath="$PROJECT_DIR$/scrapping.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,17 +14,18 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/final_project$userlogin.coverage" NAME="userlogin Coverage Results" MODIFIED="1528454443358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/final_project$scrapping.coverage" NAME="scrapping Coverage Results" MODIFIED="1528498729467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/final_project$scrapping.coverage" NAME="scrapping Coverage Results" MODIFIED="1528588509426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/final_project$scraping_two.coverage" NAME="scraping_two Coverage Results" MODIFIED="1528584894777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/final_project$admin.coverage" NAME="admin Coverage Results" MODIFIED="1528469462330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/final_project$user.coverage" NAME="user Coverage Results" MODIFIED="1528552585533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/final_project$user.coverage" NAME="user Coverage Results" MODIFIED="1528572350469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="196" column="0" lean-forward="true" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+            <state relative-caret-position="214">
+              <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
               <folding>
                 <marker date="1528457876109" expanded="true" signature="353:472" ph="CREATE TABLE... destinations" />
                 <marker date="1528457876109" expanded="true" signature="550:583" ph="INSERT INTO destinations... " />
@@ -57,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scrapping.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="scrapping.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scrapping.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="1196">
+              <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -72,7 +72,7 @@
       <file leaf-file-name="userlogin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userlogin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2046">
+            <state relative-caret-position="2350">
               <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding>
                 <marker date="1528456450071" expanded="true" signature="98:306" ph="CREATE TABLE... users" />
@@ -91,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state relative-caret-position="1475">
+              <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
               <folding>
                 <marker date="1528552641203" expanded="true" signature="196:222" ph="SELECT * FRO... destinations" />
                 <marker date="1528552641203" expanded="true" signature="664:690" ph="SELECT * FRO... destinations" />
@@ -124,8 +124,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/userlogin.py" />
         <option value="$PROJECT_DIR$/admin.py" />
-        <option value="$PROJECT_DIR$/scrapping.py" />
         <option value="$PROJECT_DIR$/user.py" />
+        <option value="$PROJECT_DIR$/scraping_two.py" />
+        <option value="$PROJECT_DIR$/scrapping.py" />
       </list>
     </option>
   </component>
@@ -138,7 +139,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2" />
     <option name="y" value="3" />
-    <option name="width" value="1279" />
+    <option name="width" value="1280" />
     <option name="height" value="692" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -189,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.user">
+  <component name="RunManager" selected="Python.scrapping">
     <configuration name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,6 +205,25 @@
       <module name="final_project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/admin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="scraping_two" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="final_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scraping_two.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,18 +286,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.admin" />
       <item index="1" class="java.lang.String" itemvalue="Python.user" />
       <item index="2" class="java.lang.String" itemvalue="Python.userlogin" />
       <item index="3" class="java.lang.String" itemvalue="Python.scrapping" />
+      <item index="4" class="java.lang.String" itemvalue="Python.scraping_two" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.user" />
-        <item index="1" class="java.lang.String" itemvalue="Python.scrapping" />
-        <item index="2" class="java.lang.String" itemvalue="Python.admin" />
-        <item index="3" class="java.lang.String" itemvalue="Python.userlogin" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.scrapping" />
+        <item index="1" class="java.lang.String" itemvalue="Python.scraping_two" />
+        <item index="2" class="java.lang.String" itemvalue="Python.user" />
+        <item index="3" class="java.lang.String" itemvalue="Python.admin" />
+        <item index="4" class="java.lang.String" itemvalue="Python.userlogin" />
       </list>
     </recent_temporary>
   </component>
@@ -302,10 +324,10 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35906515" sideWeight="0.5013889" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35906515" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35906515" sideWeight="0.49861112" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -418,40 +440,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userlogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2046">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding>
-            <marker date="1528456450071" expanded="true" signature="98:306" ph="CREATE TABLE... users" />
-            <marker date="1528456450071" expanded="true" signature="100:306" ph="CREATE TABLE... users" />
-            <marker date="1528456450071" expanded="true" signature="105:306" ph="CREATE TABLE... users" />
-            <marker date="1528456450071" expanded="true" signature="885:945" ph="INSERT INTO users... " />
-            <marker date="1528456450071" expanded="true" signature="885:965" ph="INSERT INTO users... " />
-            <marker date="1528456450071" expanded="true" signature="1156:1175" ph="SELECT * FRO... users" />
-            <marker date="1528456450071" expanded="true" signature="1263:1312" ph="SELECT * fro... users" />
-            <marker date="1528456450071" expanded="true" signature="1402:1428" ph="SELECT usern... users" />
-            <marker date="1528456450071" expanded="true" signature="1556:1592" ph="DELETE FROM users... " />
-            <marker date="1528456450071" expanded="true" signature="1690:1709" ph="SELECT * FRO... users" />
-            <marker date="1528456450071" expanded="true" signature="1951:2010" ph="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapping.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="196" column="0" lean-forward="true" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+        <state relative-caret-position="214">
+          <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
           <folding>
             <marker date="1528457876109" expanded="true" signature="353:472" ph="CREATE TABLE... destinations" />
             <marker date="1528457876109" expanded="true" signature="550:583" ph="INSERT INTO destinations... " />
@@ -484,13 +476,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="1475">
+          <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
           <folding>
             <marker date="1528552641203" expanded="true" signature="196:222" ph="SELECT * FRO... destinations" />
             <marker date="1528552641203" expanded="true" signature="664:690" ph="SELECT * FRO... destinations" />
             <marker date="1528552641203" expanded="true" signature="664:691" ph="SELECT * FRO... destinations" />
             <marker date="1528552641203" expanded="true" signature="664:693" ph="SELECT * FRO... destinations" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userlogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2350">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding>
+            <marker date="1528456450071" expanded="true" signature="98:306" ph="CREATE TABLE... users" />
+            <marker date="1528456450071" expanded="true" signature="100:306" ph="CREATE TABLE... users" />
+            <marker date="1528456450071" expanded="true" signature="105:306" ph="CREATE TABLE... users" />
+            <marker date="1528456450071" expanded="true" signature="885:945" ph="INSERT INTO users... " />
+            <marker date="1528456450071" expanded="true" signature="885:965" ph="INSERT INTO users... " />
+            <marker date="1528456450071" expanded="true" signature="1156:1175" ph="SELECT * FRO... users" />
+            <marker date="1528456450071" expanded="true" signature="1263:1312" ph="SELECT * fro... users" />
+            <marker date="1528456450071" expanded="true" signature="1402:1428" ph="SELECT usern... users" />
+            <marker date="1528456450071" expanded="true" signature="1556:1592" ph="DELETE FROM users... " />
+            <marker date="1528456450071" expanded="true" signature="1690:1709" ph="SELECT * FRO... users" />
+            <marker date="1528456450071" expanded="true" signature="1951:2010" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping_two.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
