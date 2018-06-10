@@ -16,7 +16,10 @@ def get_promotions():
         a = div.find_all('a')
         print(a)
 
-# get_promotions()
+
+get_promotions()
+
+
 
 
 # Booking's accommodations on the home page
@@ -26,7 +29,7 @@ def get_accommodations():
         print(a)
 
 
-# get_accommodations()
+#get_accommodations()
 
 # popular destinations
 def get_popular_destinations():
@@ -46,4 +49,5 @@ def discover_destinations():
         print(a)
 
 
-discover_destinations()
+# discover_destinations()
+
